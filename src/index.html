@@ -11,12 +11,12 @@
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <form id="task-form">
+        <input type="text" name="taskName" />
+        <button type="submit">Додати</button>
+      </form>
+      <ul id="task-list"></ul>
     </main>
-
-    <load src="./partials/footer.html" />
 
     <script type="module" src="./main.js"></script>
   </body>
